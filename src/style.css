@@ -1,0 +1,9 @@
+.titulo {
+    color: red;
+    font-style: italic;
+}
+
+.completada {
+    opacity: 90;
+    text-decoration: line-through;
+}
