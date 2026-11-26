@@ -7,3 +7,11 @@
     opacity: 90;
     text-decoration: line-through;
 }
+
+.aprobado {
+  color: #155724;
+}
+
+.suspenso {
+  color: #721c24;
+}
