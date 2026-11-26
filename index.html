@@ -1,17 +1,25 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gestor de Tareas</title>
-  </head>
-  <body>
-    <div id="app">
-      <h1></h1>
-      <p id="resumen"></p>
-      <ul id="lista"></ul>
-    </div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestor de Tareas</title>
+</head>
+<div id="app">
+  <h1>Gestor de tareas</h1>
+  <button id="btn-tema" type="button">🌙 Modo oscuro</button>
+  <p id="resumen"></p>
+
+  <form id="form-tarea">
+    <input type="text" id="input-tarea" placeholder="¿Qué necesitas hacer?" autocomplete="off">
+    <button type="submit">Añadir</button>
+  </form>
+
+  <ul id="lista"></ul>
+</div>
+<script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
